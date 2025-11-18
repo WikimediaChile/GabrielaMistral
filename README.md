@@ -74,7 +74,7 @@ cd tu-repositorio
 python3 -m http.server
 ```
 
-http://localhost:8000
+¡Listo! La aplicación estará corriendo en `http://localhost:8000`. 
 
 ---
 
