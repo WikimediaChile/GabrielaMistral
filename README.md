@@ -5,7 +5,7 @@
 
 Un sitio web estático que presenta la vida, obra y legado de **Gabriela Mistral**, utilizando datos abiertos y contenido en vivo desde el ecosistema Wikimedia.
 
-**Versión en vivo:**
+**Versión en vivo:** https://mistral.wikimedia.cl/
 
 ---
 
