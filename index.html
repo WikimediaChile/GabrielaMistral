@@ -367,7 +367,17 @@
 
     <header class="relative min-h-screen w-full p-4 md:p-8 flex flex-col justify-between border-b-custom overflow-hidden">
         <div class="absolute inset-0 z-0">
-            <img src="MISTRAL.png" alt="Collage de Gabriela Mistral" class="w-full h-full object-cover" loading="eager">
+            <picture>
+                <source media="(max-width: 768px)" srcset="MISTRAL-mobile.png">
+                <img 
+                    src="MISTRAL.png" 
+                    alt="Collage de Gabriela Mistral" 
+                    class="w-full h-full object-cover" loading="eager" >
+            </picture>
+            
+
+
+           <!-- <img src="MISTRAL.png" alt="Collage de Gabriela Mistral" class="w-full h-full object-contain" loading="eager"> -->
             <!-- <div class="absolute inset-0 bg-[var(--bg-color)] opacity-50"></div> -->
             </div>
         <nav class="flex justify-between items-center text-sm relative z-10">
